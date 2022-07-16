@@ -1,0 +1,123 @@
+*
+{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    background-color: bisque;
+    width: 99%;
+    box-shadow: 0 0 20rem 2rem black;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 3rem;
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+#description
+{
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+}
+
+#survey-form
+{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 2.5%;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+    box-shadow: 0 0 20rem 0.2rem white;
+}   
+
+label
+{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], input[type="email"], input[type="number"]
+{
+    height: 3rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+#dropdown, #dropdown option
+{
+    font-size: 1.5rem;
+    height: 3rem;
+}
+
+#radio
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#radio label, #checkbox label
+{
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+#radio label input, #checkbox label input
+{
+    margin-right: 0.6rem;
+}
+
+#checkbox
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#textarea
+{
+    height: 7rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.6rem;
+}
+
+#submit
+{
+    height: 4rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: wheat;
+    border-radius: 0.6rem;
+    opacity: 0.8;
+}
